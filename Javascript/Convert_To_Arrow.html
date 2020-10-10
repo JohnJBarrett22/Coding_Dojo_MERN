@@ -3,6 +3,7 @@ Assignment: Convert To Arrow
 
 Objectives:
 1. Take the following HTML and update all functions to arrow functions.
+2. Connect the EventListener 'setBackgroundColorById' to the paragraph in the HTML
 -->
 
 <!DOCTYPE html>
@@ -99,7 +100,7 @@ Revised:
     
         let getValueFromId = id => document.getElementById(id).value;
         
-        let setBackgroundColorById = (id, color) => document.getElementById(id).style = "background-color: " + color;
+        let setBackgroundColorById = (id, color) => document.getElementById("paragraph").style = "background-color: " + color;
 
         let mouseOverFunction = el => el.style = "background-color: black";
     </script>

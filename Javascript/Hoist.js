@@ -4,6 +4,8 @@
 //1. Practice reading JavaScript the same way as the interpreter reads it.
 //2. Run the same code as above with ES6 syntax and compare your results.
 
+
+
 //1.
 //Given:
 console.log(hello);
